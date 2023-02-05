@@ -2,6 +2,27 @@
     background: #e2edff;
 }
 
+img.img-about {
+    border-radius: 100%;
+    width: 45vw;
+}
+
+.desk {
+    padding-top: 120px;
+}
+
+@media screen and (max-width:768px) {
+    img.img-about {
+        width: 90vw;
+    }
+
+    .desk {
+        padding-top: 0;
+        text-align: center;
+    }
+}
+
+
 .bg-range {
     background: #e2edff;
     border-radius: 10px;
