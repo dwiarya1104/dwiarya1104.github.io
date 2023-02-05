@@ -13,6 +13,7 @@ img.img-about {
 
 @media screen and (max-width:768px) {
     img.img-about {
+        border-radius: 100%;
         width: 90vw;
     }
 
