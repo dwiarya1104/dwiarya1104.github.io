@@ -23,6 +23,18 @@ img.img-about {
     }
 }
 
+@media screen and (max-width:600px) {
+    img.img-about {
+        border-radius: 100%;
+        width: 90vw;
+    }
+
+    .desk {
+        padding-top: 0;
+        text-align: center;
+    }
+}
+
 
 .bg-range {
     background: #e2edff;
