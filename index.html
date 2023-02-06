@@ -1,354 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <title>Portofolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #e2edff">
-      <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#timeline">Educations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skill">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Projects</a>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: #e2edff">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#timeline">Educations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <div class="wrap">
-      <div class="container">
-        <div id="about">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <img src="/img/about.png" class="img-about" alt="ppp" />
-            </div>
-            <div
-              class="desk justify-content-center col-lg-6 col-md-6 col-sm-12"
-            >
-              <h2>Dwi Arya Putra</h2>
-              <h4>I'm a <span class="jurusan"></span></h4>
-            </div>
+    </div>
+  </nav>
+  <div class="wrap">
+    <div class="container">
+      <div id="about">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="/img/about.png" class="img-about" alt="ppp" />
+          </div>
+          <div class="desk justify-content-center col-lg-6 col-md-6 col-sm-12">
+            <h2>Dwi Arya Putra</h2>
+            <h4>I'm a <span class="jurusan"></span></h4>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,192L48,170.7C96,149,192,107,288,112C384,117,480,171,576,186.7C672,203,768,181,864,154.7C960,128,1056,96,1152,85.3C1248,75,1344,85,1392,90.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
     </div>
-    <div class="wrap-white">
-      <div id="timeline">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,192L48,170.7C96,149,192,107,288,112C384,117,480,171,576,186.7C672,203,768,181,864,154.7C960,128,1056,96,1152,85.3C1248,75,1344,85,1392,90.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <div class="wrap-white">
+    <div id="timeline">
+      <center class="mb-5">
+        <h4>Educations</h4>
+      </center>
+      <div class="timeline">
+        <div class="fluid left">
+          <div class="content shadow-sm">
+            <h2>2020 - 2023</h2>
+            <p>Vocational School - SMKN 10 Jakarta</p>
+          </div>
+        </div>
+        <div class="fluid right">
+          <div class="content pt-5 shadow-sm">
+            <h2>2017 - 2020</h2>
+            <p>Junior High School - SMPN 150 Jakarta</p>
+          </div>
+        </div>
+        <div class="fluid left">
+          <div class="content shadow-sm">
+            <h2>2011-2017</h2>
+            <p>Elementry School - SDN Batu Ampar 03 Pagi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#e2edff" fill-opacity="1"
+        d="M0,32L48,74.7C96,117,192,203,288,202.7C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,101.3C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+
+  <div class="wrap">
+    <div class="container">
+      <div id="skill">
         <center class="mb-5">
-          <h4>Educations</h4>
+          <h4>Skills</h4>
         </center>
-        <div class="timeline">
-          <div class="fluid left">
-            <div class="content shadow-sm">
-              <h2>2020 - 2023</h2>
-              <p>Vocational School - SMKN 10 Jakarta</p>
-            </div>
-          </div>
-          <div class="fluid right">
-            <div class="content pt-5 shadow-sm">
-              <h2>2017 - 2020</h2>
-              <p>Junior High School - SMPN 150 Jakarta</p>
-            </div>
-          </div>
-          <div class="fluid left">
-            <div class="content shadow-sm">
-              <h2>2011-2017</h2>
-              <p>Elementry School - SDN Batu Ampar 03 Pagi</p>
+        <div class="row">
+          <div class="card border-0 mb-5 p-3">
+            <div class="card-body">
+              <div class="mb-3">
+                <p>
+                  <i class="fa-brands fa-html5"></i>
+                  HTML
+                </p>
+                <div class="bg-range">
+                  <div class="range html">90%</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <p>
+                  <i class="fa-brands fa-css3-alt"></i>
+                  CSS
+                </p>
+                <div class="bg-range">
+                  <div class="range css">70%</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <p>
+                  <i class="fa-brands fa-php"></i>
+                  PHP
+                </p>
+                <div class="bg-range">
+                  <div class="range php">60%</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <p>
+                  <i class="fa-brands fa-js"></i>
+                  JavaScript
+                </p>
+                <div class="bg-range">
+                  <div class="range js">40%</div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <p>
+                  <i class="fa-brands fa-laravel"></i>
+                  Laravel
+                </p>
+                <div class="bg-range">
+                  <div class="range laravel">70%</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <p>
+                  <i class="fa-brands fa-vuejs"></i>
+                  Vue
+                </p>
+                <div class="bg-range">
+                  <div class="range vue">30%</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,32L48,74.7C96,117,192,203,288,202.7C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,101.3C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
     </div>
-
-    <div class="wrap">
-      <div class="container">
-        <div id="skill">
-          <center class="mb-5">
-            <h4>Skills</h4>
-          </center>
-          <div class="row">
-            <div class="card border-0 mb-5 p-3">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,160L48,138.7C96,117,192,75,288,90.7C384,107,480,181,576,202.7C672,224,768,192,864,176C960,160,1056,160,1152,186.7C1248,213,1344,267,1392,293.3L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <div class="wrap-white">
+    <div class="container">
+      <div id="project">
+        <center class="mb-5">
+          <h4>Projects</h4>
+        </center>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
+            <div class="card border-0 shadow-sm" style="border-left: #0d6efd 5px solid;">
+              <img src="/img/jadwal-piket.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <div class="mb-3">
-                  <p>
-                    <i class="fa-brands fa-html5"></i>
-                    HTML
-                  </p>
-                  <div class="bg-range">
-                    <div class="range html">90%</div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <p>
-                    <i class="fa-brands fa-css3-alt"></i>
-                    CSS
-                  </p>
-                  <div class="bg-range">
-                    <div class="range css">70%</div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <p>
-                    <i class="fa-brands fa-php"></i>
-                    PHP
-                  </p>
-                  <div class="bg-range">
-                    <div class="range php">60%</div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <p>
-                    <i class="fa-brands fa-js"></i>
-                    JavaScript
-                  </p>
-                  <div class="bg-range">
-                    <div class="range js">40%</div>
-                  </div>
-                </div>
-
-                <div class="mb-3">
-                  <p>
-                    <i class="fa-brands fa-laravel"></i>
-                    Laravel
-                  </p>
-                  <div class="bg-range">
-                    <div class="range laravel">70%</div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <p>
-                    <i class="fa-brands fa-vuejs"></i>
-                    Vue
-                  </p>
-                  <div class="bg-range">
-                    <div class="range vue">30%</div>
-                  </div>
-                </div>
+                <h6 class="card-title">Jadwal Piket (PT SOLUSI INTEK)</h6>
+                <p class="card-text">
+                  Website untuk mengatur jadwal piket office boy di PT Solusi
+                  Intek
+                </p>
+              </div>
+              <div class="card-footer border-0">
+                <span class="badge text-bg-primary"> Laravel </span>
+                <span class="badge text-bg-primary"> PHP </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
+            <div class="card border-0 shadow-sm">
+              <img src="img/kareem.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">KAREEM</h6>
+                <p class="card-text">
+                  Website Islami yang meliputi : Al-Qur'an & Terjemahannya,
+                  Jadwal & Bacaan Sholat, Doa Sehari-hari
+                </p>
+              </div>
+              <div class="card-footer border-0">
+                <span class="badge text-bg-primary"> Laravel </span>
+                <span class="badge text-bg-primary"> PHP </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
+            <div class="card border-0 shadow-sm">
+              <img src="/img/e-perpus.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">E-PERPUS</h6>
+                <p class="card-text">
+                  Website untuk mengatur peminjaman dan pengembalian buku
+                </p>
+              </div>
+              <div class="card-footer border-0">
+                <span class="badge text-bg-primary"> Laravel </span>
+                <span class="badge text-bg-primary"> PHP </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
+            <div class="card border-0 shadow-sm">
+              <img src="/img/web-class.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">Web Class</h6>
+                <p class="card-text">
+                  Website yang digunakan untuk mengetahui informasi sebuah
+                  kelas
+                </p>
+              </div>
+              <div class="card-footer border-0">
+                <span class="badge text-bg-primary"> Laravel </span>
+                <span class="badge text-bg-primary"> PHP </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
+            <div class="card border-0 shadow-sm">
+              <img src="/img/salesman.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">Salesman Report (PT Tiara Kencana)</h6>
+                <p class="card-text">
+                  Website untuk melihat reporting dari sales PT Tiara Kencana
+                </p>
+              </div>
+              <div class="card-footer border-0">
+                <span class="badge text-bg-primary"> Laravel </span>
+                <span class="badge text-bg-primary"> PHP </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
+            <div class="card border-0 shadow-sm">
+              <img src="/img/bk.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">Backend Web BK</h6>
+                <p class="card-text">
+                  Menyediakan API untuk Front End Website BK
+                </p>
+              </div>
+              <div class="card-footer border-0">
+                <span class="badge text-bg-primary"> Laravel </span>
+                <span class="badge text-bg-primary"> PHP </span>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,160L48,138.7C96,117,192,75,288,90.7C384,107,480,181,576,202.7C672,224,768,192,864,176C960,160,1056,160,1152,186.7C1248,213,1344,267,1392,293.3L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
     </div>
-    <div class="wrap-white">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#e2edff" fill-opacity="1"
+        d="M0,128L48,149.3C96,171,192,213,288,208C384,203,480,149,576,154.7C672,160,768,224,864,229.3C960,235,1056,181,1152,154.7C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <div class="wrap">
+    <div id="contact">
       <div class="container">
-        <div id="project">
-          <center class="mb-5">
-            <h4>Projects</h4>
-          </center>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm">
-                <img
-                  src="/img/jadwal-piket.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h6 class="card-title">Jadwal Piket (PT SOLUSI INTEK)</h6>
-                  <p class="card-text">
-                    Website untuk mengatur jadwal piket office boy di PT Solusi
-                    Intek
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <span class="badge text-bg-primary"> Laravel </span>
-                  <span class="badge text-bg-primary"> PHP </span>
-                </div>
+        <center class="mb-5">
+          <h4>
+            Contact
+          </h4>
+        </center>
+
+        <div id="status"></div>
+        <div class="row">
+          <div class="col-md-6 col-xl-6 col-sm-12">
+            <form action="https://formspree.io/f/xpzepabj" method="post" id="my-form">
+              <div class="mb-3 shadow-sm">
+                <!-- <label for="">Nama</label> -->
+                <input placeholder="Nama" type="text" name="nama" id="" class="form-control border-0">
               </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm">
-                <img src="img/kareem.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">KAREEM</h6>
-                  <p class="card-text">
-                    Website Islami yang meliputi : Al-Qur'an & Terjemahannya,
-                    Jadwal & Bacaan Sholat, Doa Sehari-hari
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <span class="badge text-bg-primary"> Laravel </span>
-                  <span class="badge text-bg-primary"> PHP </span>
-                </div>
+              <div class="mb-3 shadow-sm">
+                <!-- <label for="">Email</label> -->
+                <input placeholder="Email" type="email" name="email" id="" class="form-control border-0">
               </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm">
-                <img src="/img/e-perpus.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">E-PERPUS</h6>
-                  <p class="card-text">
-                    Website untuk mengatur peminjaman dan pengembalian buku
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <span class="badge text-bg-primary"> Laravel </span>
-                  <span class="badge text-bg-primary"> PHP </span>
-                </div>
+              <div class="mb-3 shadow-sm">
+                <!-- <label for="">Subjek</label> -->
+                <input placeholder="Subjek" type="text" name="subject" id="" class="form-control border-0">
               </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm">
-                <img src="/img/web-class.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">Web Class</h6>
-                  <p class="card-text">
-                    Website yang digunakan untuk mengetahui informasi sebuah
-                    kelas
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <span class="badge text-bg-primary"> Laravel </span>
-                  <span class="badge text-bg-primary"> PHP </span>
-                </div>
+              <div class="mb-3 shadow-sm">
+                <!-- <label for="">Pesan</label> -->
+                <textarea name="message" placeholder="Pesan" id="" cols="30" rows="4"
+                  class="form-control border-0"></textarea>
               </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm">
-                <img src="/img/salesman.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">Salesman Report (PT Tiara Kencana)</h6>
-                  <p class="card-text">
-                    Website untuk melihat reporting dari sales PT Tiara Kencana
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <span class="badge text-bg-primary"> Laravel </span>
-                  <span class="badge text-bg-primary"> PHP </span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 col-md-6 mb-4">
-              <div class="card border-0 shadow-sm">
-                <img src="/img/bk.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">Backend Web BK</h6>
-                  <p class="card-text">
-                    Menyediakan API untuk Front End Website BK
-                  </p>
-                </div>
-                <div class="card-footer border-0">
-                  <span class="badge text-bg-primary"> Laravel </span>
-                  <span class="badge text-bg-primary"> PHP </span>
-                </div>
-              </div>
-            </div>
+
+              <button class="btn btn-primary" type="submit">Kirim</button>
+            </form>
+          </div>
+          <div class="img-contact col-md-6 col-xl-6 col-sm-12 d-flex justify-content-center">
+            <img src="img/contacts.png" alt="" class="p-0" style="margin-top:0;" width="450rem">
           </div>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,128L48,149.3C96,171,192,213,288,208C384,203,480,149,576,154.7C672,160,768,224,864,229.3C960,235,1056,181,1152,154.7C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </div>
-    <footer class="p-3">
-      <div class="row">
-        <center>
-          <div class="col-6">
-            <p>Dwi Arya Putra &copy; 2023</p>
-          </div>
-          <div class="d-flex justify-content-center">
-            <a
-              target="_blank"
-              href=" https://instagram.com/dwiarya.p_"
-              class="pe-3"
-            >
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a target="_blank" href="mailto:dwiarya1104@gmail.com" class="pe-3">
-              <i class="fa fa-envelope"></i>
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/dwiarya1104"
-              class="pe-3"
-            >
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-        </center>
-      </div>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-      var typed = new Typed(".jurusan", {
-        strings: ["Junior Web Developer"],
-        typeSpeed: 150,
-        backSpeed: 150,
-        loop: true,
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,160L48,144C96,128,192,96,288,112C384,128,480,192,576,192C672,192,768,128,864,106.7C960,85,1056,107,1152,144C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <footer class="p-3">
+    <div class="row">
+      <center>
+        <div class="col-6">
+          <p>Dwi Arya Putra &copy; 2023</p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a target="_blank" href=" https://instagram.com/dwiarya.p_" class="pe-3">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a target="_blank" href="mailto:dwiarya1104@gmail.com" class="pe-3">
+            <i class="fa fa-envelope"></i>
+          </a>
+          <a target="_blank" href="https://github.com/dwiarya1104" class="pe-3">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </center>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".jurusan", {
+      strings: ["Junior Web Developer"],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true,
+    });
+  </script>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      // get the form elements defined in your form HTML above
+
+      var form = document.getElementById("my-form");
+      // var button = document.getElementById("my-form-button");
+      var status = document.getElementById("status");
+
+      // Success and Error functions for after the form is submitted
+
+      function success() {
+        status.classList.add("success");
+        status.innerHTML = "Thanks!";
+        form.reset();
+      }
+
+      function error() {
+        status.classList.add("error");
+        status.innerHTML = "Oops! There was a problem.";
+      }
+
+      // handle the form submission event
+
+      form.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var data = new FormData(form);
+        ajax(form.method, form.action, data, success, error);
       });
-    </script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    });
+
+    // helper function for sending an AJAX request
+
+    function ajax(method, url, data, success, error) {
+      var xhr = new XMLHttpRequest();
+      xhr.open(method, url);
+      xhr.setRequestHeader("Accept", "application/json");
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState !== XMLHttpRequest.DONE) return;
+        if (xhr.status === 200) {
+          success(xhr.response, xhr.responseType);
+        } else {
+          error(xhr.status, xhr.response, xhr.responseType);
+        }
+      };
+      xhr.send(data);
+    }
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
